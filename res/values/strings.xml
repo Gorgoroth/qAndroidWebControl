@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello</string>
+    <string name="app_name">Android Web Control</string>
+    <string name="appInfo">Android Marionette</string>
+    <string name="authInfo">by Quelltextfabrik.de</string>
+    <string name="revInfo">Revision 0.0.0.0</string>
+    <string name="StartService">Start Service</string>  
+    <string name="StopService">Stop Service</string> 
+    <string name="Preferences">Preferences</string>           
+    <string name="reviewConnSettings">Please review your connection settings.</string>               
+    <string name="copy">copy</string>
+</resources>

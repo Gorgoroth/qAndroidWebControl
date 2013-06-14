@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+		android:summary="Enter your XMPP login data here"
+		android:title="XMPP Login">
+		<EditTextPreference
+			android:summary="Pleaser enter the XMPP user"
+			android:title="Username"
+			android:key="jabberUser">
+		</EditTextPreference>
+		<EditTextPreference
+			android:summary="Please enter your XMPP password"
+			android:title="Password"
+			android:key="jabberPW">
+		</EditTextPreference>	
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:summary="XMPP Account used in Web app"
+		android:title="XMPP Target">
+		<EditTextPreference
+			android:summary="Enter XMPP target account"
+			android:title="Target"
+			android:key="jabberTarget">
+		</EditTextPreference>
+	</PreferenceCategory>	
+	<PreferenceCategory
+		android:title="Permissions">
+		<CheckBoxPreference
+			android:key="permConnNotify"
+			android:title="Connection Notify"
+			android:defaultValue="true">
+		</CheckBoxPreference>
+	</PreferenceCategory>
+</PreferenceScreen>
